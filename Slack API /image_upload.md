@@ -1,5 +1,5 @@
 ### 画像をSlackの特定のチャンネルへ投稿するサンプルコード（Python）
-```
+```python
 import os
 import logging
 import sys
