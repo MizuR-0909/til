@@ -39,3 +39,14 @@ sudo systemctl status httpd.service
 ps -axu | grep httpd
 ```
 
+#### Apacheの自動起動設定
+```
+sudo systemctl enable httpd.service
+```
+
+#### Apacheの自動起動が設定されている確認
+```
+sudo systemctl is-enabled httpd.service
+```
+＊enabledと返ってっくればOK
+
