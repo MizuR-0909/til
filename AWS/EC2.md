@@ -30,6 +30,12 @@ sudo systemctl start httpd.service
 ```
 
 #### Apacheの起動状況確認
+①
 ```
 sudo systemctl status httpd.service
 ```
+②
+```
+ps -axu | grep httpd
+```
+
