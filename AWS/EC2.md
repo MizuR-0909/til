@@ -10,7 +10,7 @@ ssh -i <keyname> ec2-user@<パブリック IPv4 アドレス>
 ```
 sudo lsof -i -n -P
 ```
-※補足
+※補足</br>
 (LISTEN)→他のPCから待ち受けているポート</br>
 (ESTABLISHED)→現在接続を受けているポート
 
