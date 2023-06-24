@@ -24,3 +24,12 @@ sudo yum update -y
 sudo yum -y install httpd
 ```
 
+#### Apacheの起動
+```
+sudo systemctl start httpd.service
+```
+
+#### Apacheの起動状況確認
+```
+sudo systemctl status httpd.service
+```
