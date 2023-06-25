@@ -50,3 +50,7 @@ sudo systemctl is-enabled httpd.service
 ```
 ＊enabledと返ってっくればOK
 
+#### ドメインのネームサーバーの設定を確認
+```
+dig <domain> NS +short
+```
