@@ -136,6 +136,15 @@ git fetch
 // リモートリポジトリ全て
 git fetch origin
 ```
+# マージ
+```
+git merge origin/branch-name
+```
+
+#pull
+```
+git pull origin branch-name
+```
 
 
 
