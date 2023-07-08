@@ -7,6 +7,7 @@ chmod 600 <keyname>
 ssh -i <keyname> ec2-user@<パブリック IPv4 アドレス>
 ```
 #### プログラムがどのポート番号で待ち受けているか確認
+SSHは22番、SMTPは25番、HTTPは80番、HTTPSは443番
 ```
 sudo lsof -i -n -P
 ```

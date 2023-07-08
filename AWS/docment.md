@@ -25,6 +25,5 @@ private subnet 10.0.20.0/24
 5. SSHキーペアの設定
 6. Apacheをインストール（SSHでログインする）
    https://github.com/MizuR-0909/til/blob/081a854836cb9889d3d86ffef81cbbdd1411823b/AWS/EC2.md
-8. ファイアウォールを設定
-
-
+7. ファイアウォールを設定
+8. ElasticIPアドレスの設定（インスタンスのパブリックIPを固定）
