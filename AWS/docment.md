@@ -33,4 +33,3 @@ private subnet 10.0.20.0/24
 1. ホストゾンの作成
    NSレコードとSOAレコードの2つが作成されるのでAレコードも作成する
 2. ネームサーバーを変更する [確認コマンドはこちら](https://github.com/MizuR-0909/til/blob/081a854836cb9889d3d86ffef81cbbdd1411823b/AWS/EC2.md)
-3. 
