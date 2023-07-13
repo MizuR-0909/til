@@ -1,5 +1,3 @@
-JVM言語→仮想上で動作する
-JDK→→Javaのライブラリパッケージ
-
-Exlipseは高機能すぎて動き遅いので高性能PCが要求される
-初学者は挫折しがち
+VM（Java Virtual Machine）：Javaバイトコードを実行する仮想マシン。
+JDK（Java Development Kit）：Javaアプリケーションを開発するために必要なソフトウェアツールのセット。
+JRE（Java Runtime Environment）：Javaアプリケーションを実行するために必要なソフトウェアツールのセット。
