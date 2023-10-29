@@ -17,6 +17,11 @@ git add .
 git ls-files
 ```
 
+## 空コミット
+```
+git commit --allow-empty -m ""
+```
+
 ## ローカルリポジトリにコミット
 ```
 git commit -m "<Message>"
