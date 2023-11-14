@@ -158,3 +158,24 @@ git pull origin branch-name
 git checkout -b <branch-name> origin/<branch-name>
 ```
 
+<!-- 変更を戻る方法 -->
+## ワーキングディレクトリ内
+```
+git checkout -- ファイル名 //ファイル指定
+git checkout -- . //全て
+```
+
+## ステージング
+```
+git reset HEAD ファイル名 //ファイル指定
+git reset HEAD //全て
+```
+
+## ローカルコミットの変更を戻す
+```
+//最後のコミット（ステージング状態保持）
+git reset --soft HEAD~1
+//最後のコミット（変更自体削除）
+git reset --hard HEAD~1
+```
+
