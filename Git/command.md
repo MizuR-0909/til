@@ -72,6 +72,8 @@ git branch
 ## ブランチ作成とチェックアウト
 ```
 git checkout -b <branch-name>
+//もしくは
+git switch -c <branch-name>
 ```
 
 ## HEADのコミットを変更取り消しコミット追加
@@ -158,3 +160,35 @@ git pull origin branch-name
 git checkout -b <branch-name> origin/<branch-name>
 ```
 
+## ブランチ削除
+```
+git checkout -d <branch-name>
+git checkout -D <branch-name> //強制削除
+```
+
+<!-- 変更を戻る方法 -->
+## ワーキングディレクトリ内
+```
+git checkout -- ファイル名 //ファイル指定
+git checkout -- . //全て
+```
+
+## ステージング
+```
+git reset HEAD ファイル名 //ファイル指定
+git reset HEAD //全て
+```
+
+## ローカルコミット
+```
+// 最後のコミット取り消し（ステージング状態保持）
+git reset --soft HEAD~1
+// 最後のコミット取り消し（変更も破棄）
+git reset --hard HEAD~1
+```
+
+## リモート同期
+```
+git revert コミットID
+git push origin ブランチ名
+```
