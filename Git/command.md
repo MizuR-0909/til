@@ -192,4 +192,3 @@ git reset --hard HEAD~1
 git revert コミットID
 git push origin ブランチ名
 ```
-
